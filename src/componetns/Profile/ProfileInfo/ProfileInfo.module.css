@@ -1,0 +1,38 @@
+.content {
+  grid-area: c;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "ava info"
+    "post post"
+    "posts posts";
+  grid-gap: 10px;
+  grid-template-columns: 120px 1fr;
+}
+.item {
+}
+.header {
+  grid-area: header;
+}
+.header img {
+  border-radius: 15px;
+  width: 100%;
+  height: 150px;
+}
+.name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.ava {
+  grid-area: ava;
+}
+.profile {
+  grid-area: info;
+}
+.ava img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}

@@ -1,0 +1,13 @@
+.card_item {
+  display: flex;
+
+  align-items: center;
+  resize: none;
+
+  grid-template-columns: 100px auto 100px;
+  margin-top: 40px;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  align-items: center;
+}

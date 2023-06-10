@@ -1,0 +1,50 @@
+.textarea {
+  resize: none;
+  width: 940px;
+  height: 50px;
+}
+button {
+  position: relative;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #3b5998;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #3b5998;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #3b5998;
+}
+
+button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #3b5998;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+button:disabled {
+  filter: grayscale(100%);
+  cursor: not-allowed;
+}
+
+textarea {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #ffffff;
+  box-shadow: 18px 20px 60px #c5c5c5;
+  transition: 0.3s;
+}
+
+.input:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: inset 20px 20px 60px #c5c5c5, inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+}

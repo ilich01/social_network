@@ -1,0 +1,38 @@
+.nav {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 25px;
+  grid-area: n;
+  background-color: #4c9fcc;
+  border-radius: 15px;
+  max-height: 400px;
+}
+.active {
+  color: #3b5998;
+}
+.nav .line {
+  width: 198px;
+  height: 20px;
+}
+.friends {
+  display: grid;
+}
+.friend {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.name {
+  font-size: 14px;
+  text-align: center;
+}
+.item {
+  width: 70px;
+}
+.fiendList {
+  display: grid;
+}
+.frindsItem {
+  display: flex;
+  padding: 12px 13px 0 0;
+}
