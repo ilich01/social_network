@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ilich01/social_network/static/css/main.a4361360.css",
+    "main.js": "/ilich01/social_network/static/js/main.82da8b6f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ilich01/social_network/static/js/787.28cb0dcd.chunk.js",
+    "static/media/user.png": "/ilich01/social_network/static/media/user.4b4e57864f2a8b08d686.png",
+    "index.html": "/ilich01/social_network/index.html",
+    "main.a4361360.css.map": "/ilich01/social_network/static/css/main.a4361360.css.map",
+    "main.82da8b6f.js.map": "/ilich01/social_network/static/js/main.82da8b6f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ilich01/social_network/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4361360.css",
+    "static/js/main.82da8b6f.js"
+  ]
+}
